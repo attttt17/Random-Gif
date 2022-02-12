@@ -15,7 +15,7 @@ submit.addEventListener('click',(e)=>{
             }
             else{
 
-                $("#message-2").append($("<a href='" + data.data.images.fixed_width_still.url + "'>" + "GIF URL" + "</a>"));
+                
 
             
                  const regex = data.data.images.fixed_width_still.url
